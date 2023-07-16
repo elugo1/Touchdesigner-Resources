@@ -47,13 +47,13 @@ Why don't we take a look at the top left node in the default scene with those na
 
 ![Alt text](<Images_anatomy/Screenshot 2023-07-15 203734.png>)
 
-As shown above, when you select an operator it will be highlighted with a green line, and in the top right of the network editor there will be a window with the name of the selected node. That is the     `Parameter window` and is where 90% of your file linking/animation/math will happen within the patching world. Every yime you select a node, that node's parameter will populate the windowl. Each node's parameters are unique, and will affect that node in different words 
+As shown above, when you select an operator it will be highlighted with a green line, and in the top right of the network editor there will be a window with the name of the selected node. That is the     `Parameter window` and is where 90% of your file linking/animation/math will happen within the patching world. Every yime you select a node, that node's parameter will populate the windowl. Each node's parameters are unique, and will affect that node in different ways
 
 If you ever have a node, and you want to know it's function, you can click `?` on the parameters window to go to touchdesigner's documentation for that specific node.
 
 You can start in your touchdesigner journey by clicking `+` on the file parameter and selecting a test video to manipulate.   
   
-Why don't you also tap the `P` button to get rid of the parameters window. We will bring it back later, but for now it's just blovking our view of the network editor
+Why don't you also tap the `P` button to get rid of the parameters window. We will bring it back later, but for now it's just blocking our view of the network editor
 
 ![Alt text](<Images_anatomy/Screenshot 2023-07-15 203736.png>)
 
@@ -85,7 +85,7 @@ When you see the above image you will notice    `wires` connecting the nodes by 
 
 So now we know how to move stuff around our netowork editor, how to adjust a node's parameters, and how to connect nodes to other nodes. Let's take a step back and address some of the stuff in our GUI that have been around since starting up 
 
-### Pallete:
+### Palette:
 ![Alt text](<Images_anatomy/Screenshot 2023-07-16 002456.png>)
 
 The palette is a collection of pre-loaded operators that were created in touchdesigner by other people, so you could reproduce their results on the fly, think of it as a package in javascript.
@@ -107,7 +107,7 @@ Moving further right we see a timeline. Tap the `spacebar` to `pause` and `play`
 
 ![Alt text](<Images_anatomy/Screenshot 2023-07-16 004754.png>)
  
-This is the last of our basic gui-anatomy 
+This is the last part of our basic gui-anatomy 
 
 The top bar of Touchdesigner is very similar to other programs, where you can
 -  `open, create, and export  projects` 
@@ -118,5 +118,6 @@ As we go right we see a yellow on/off button. This is the `cooking on/off` butto
 
 Once again we see an `FPS` dialogue box, but this time it is actually tracking the `current fps`. It is a great diagnostic tool for your scene, that will let you know how your scene is actually performing. 
 
+The rest of the dialog boxes will become `very useful ` as they are needed, they change how you split up your editor, and a very important concept later called `layering`
 
 ## Enough of the Anatomy, What do we even do in Touchdesigner?
