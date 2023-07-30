@@ -6,5 +6,6 @@ Touchdesigner how I wish I had learned it?
 
 | Lesson      | Description |
 | ----------- | ----------- |
+| 0.0 Resources| Youtube Touchdesigner Resources, and useful plugins |
 | 1.0 Installation      | How to install, Setup, and general getting started in the program       |
 | 1.5 How Nodes Work   | Text        |
