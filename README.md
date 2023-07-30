@@ -2,7 +2,7 @@
 Touchdesigner how I wish I had learned it?
 
 > **Note**
-> This is a note
+> Feel free to use Lesson 0 as a working list of resources to return to at any level of Touchdesigner. Many creators have great tutorials in specific subjects 
 
 | Lesson      | Description |
 | ----------- | ----------- |
