@@ -78,6 +78,38 @@ to
  
  ![Alt text](<1.5_Images/Screenshot 2023-07-19 194914.png>)
  
- Meaning you have left the project1 node. This **path** will change based on what layer you are currently editing in and can make referencing nodes on different layers much easier.
+ Meaning you have left the project1 node. This **path** will change based on what layer you are currently editing in; and can make referencing nodes on different layers much easier.
+
+ With the Create Dialog op open, start typing **null**, and click the null button. Now that it's in your scene, you can connect it to the default `movie file in` top from before. 
+![Alt text](<1.5_Images/Screenshot 2023-07-16 220930.png>)
+
+#Special topics 
+
+ ##Ettiquite and Organization  
  
+ Once you start building larger Touchdesigner files, you may notice it becoming hard to go back to very specific portions of your logic. Large and sprawling node networks can be hard to distinguish with little visual difference so here's some tricks to make your files more ***legible, organized, and efficient***  
+ ### Wires and Hover  
+  
+ ### Annotate and color
+ ![Screenshot 2023-07-25 220128](https://github.com/elugo1/Touchdesigner-Resources/assets/82634063/71c22454-6e6d-438b-9ccb-2cda021c2441)
+ Annotations are one of the newly added, and most helpful features in Touchdesigner as it allows you to create **comments as you go**. Annotations sit behind everything in your network and  allow you to **group together operators with similar functions** You can write a paragraph about how a particular set of operators works, just as you would with comments in code. When you move an annotation block, it will move all of the nodes that are sitting on top of it.  
+
+  The Annotate tool is great, but is even better with the use of **The node color tool* 
+ 
+ Let's take a quick peek inside of a popular pallete operator: **Particles GPU** and see which of the two looks more easy to follow. 
+ ![Screenshot 2023-07-25 222442](https://github.com/elugo1/Touchdesigner-Resources/assets/82634063/b860af99-908f-4bd3-bf33-190b55ffd732)
+
+ ![Screenshot 2023-07-25 221403](https://github.com/elugo1/Touchdesigner-Resources/assets/82634063/f27ec40d-d16c-4d60-889d-03a51338297a) 
+
+ Particles GPU natururally comes with no colors added to the annotations, 
+ #### We can add  additional color to nodes by tapping `C` to bring up the node color box in the bottom left > `LMB` on a node > `LMB` desired color on the color picker
+![Screenshot 2023-07-25 223717](https://github.com/elugo1/Touchdesigner-Resources/assets/82634063/530b1f65-f0a5-478a-bd87-cc1ed5c05481) 
+Color Picker  
+ ![Screenshot 2023-07-25 224222](https://github.com/elugo1/Touchdesigner-Resources/assets/82634063/dd2956b5-727a-425f-80c0-28456e3dc4fb)
+As shown the image above, color changes to **Annotations** make the whole node change color. On the Right we can see color changes made to all of our operator types   
+make the border change to the corresponding color. 
+ 
+ The Mod
+
+ ### Null Operator 
  
