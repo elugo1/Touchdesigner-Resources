@@ -112,4 +112,10 @@ make the border change to the corresponding color.
  The Mod
 
  ### Null Operator 
- 
+ One of the practices that is a little obscure, and maybe unintuitive about most Touch workflows is the use of the `null` operator. Null is a node that exists in all of the main operator families, and simply is `a node that does nothing`. 
+
+![Screenshot 2023-08-01 225101](https://github.com/elugo1/Touchdesigner-Resources/assets/82634063/c5ca3644-49d3-40ac-8482-3336f73f8f49) 
+In the above image I link ann LFO CHOP to some translation parameters of some circles. In Touchdesigner, unlike with normal wires, when we want to reference with python expression, we cannot add operators that change values along the wire creating the reference. 
+If I wanted to intercept the value of the LFO, I would need to manually erase the python expression in the destination, add a node to the end of the LFO, and re-reference from chop to TOP. 
+![Screenshot 2023-08-01 225128](https://github.com/elugo1/Touchdesigner-Resources/assets/82634063/4fc1bdeb-b751-4b63-a369-c98126a78d54) 
+Instead, it is best practice to add a 'null' at the end of a process that has to be used as a reference, because the wire between the LFO and the null allows us an opportunity to add nodes, branch off, and otherwise manipulate a value we plan to export. 
