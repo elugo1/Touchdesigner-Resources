@@ -47,18 +47,18 @@ DAT, or Data Operators are essential to getting good in Touchdesigner. These ope
 
 ![Alt text](<Screenshot 2023-07-18 233757.png>) 
 
-Without going into too much detail, you can see from the image above that in some cases, manipulation of a TOP or another DAT can come from external **floating DAT windows** . As you can see there is text to edit in those nodes, and you can edit within Touchdesigner quite easily, but those windows can be rather small, and editing on them isn't really that great. So I advise that you either edit from Touchdesigner's `Texport` (RMB + click on node >  edit in Textport) OR edit from your favorite Text editor, by [changing preferences](https://medium.com/partical.grt/how-to-use-external-text-editor-in-touchdesigner-touch-touchdesigner-tip-2-d7c4bed47c68).
+Without going into too much detail, you can see from the image above that in some cases, manipulation of a TOP or another DAT can come from external **floating DAT windows**. As you can see there is text to edit in those nodes, and you can edit within Touchdesigner quite easily, but those windows can be rather small, and editing on them isn't really that great. So I advise that you either edit from Touchdesigner's `Texport` (RMB + click on node >  edit in Textport) OR edit from your favorite Text editor, by [changing preferences](https://medium.com/partical.grt/how-to-use-external-text-editor-in-touchdesigner-touch-touchdesigner-tip-2-d7c4bed47c68).
 
 ### MATS 
 ![Alt text](<1.5_Images/Screenshot 2023-07-18 234932.png>)
  
-MATS define a SOP'S ***material***, and can only be used in conjunction with a rendering system. They basically are the nodes that let you **create textures for 3D objects, and define how they react to light**. Some nodes will not render if a light isn't placed in your scene, and others will render regardless. MATs can accept TOPS for **color, bump, and normal maps**.
+MATs define a SOP'S ***material***, and can only be used in conjunction with a rendering system. They basically are the nodes that let you **create textures for 3D objects, and define how they react to light**. Some nodes will not render if a light isn't placed in your scene, and others will render regardless. MATs can accept TOPS for **color, bump, and normal maps**.
 
 
 ### Viewer Active Aside
 - Viewer active is the star or `+` shaped button at the bottom right of all basic nodes, up until now, it hasn't been that useful, but Viewer active can speed up your workflow.
 - It doesn't don't do much for TOPs
-- For **Timeslice** CHOPS, the viewer active button turns your whole node into a `button` that you can drag and drop into certain arguments of the parameters window to create a quick **python expression**. When you release from your drag you can click `chop reference``, and now whenever the CHOP value changes, the referenced parameter will change too. 
+- For **Timeslice** CHOPS, the viewer active button turns your whole node into a `button` that you can drag and drop into certain arguments of the parameters window to create a quick **Python expression**. When you release from your drag you can click `chop reference``, and now whenever the CHOP value changes, the referenced parameter will change too. 
 
 - For SOPS, the viewer active button will make the TV window in the middle of all of your sops a simple 3D workspace. You get to pan, and orbit around your scene, see wireframes/ normal directions, and a HUD with polycount.  The orbiting and panning will also affect your camera object in real time.
 - For DATS, viewer active is the only way you can interact with a typed script, but most people don't use that so it's fine 
@@ -66,7 +66,7 @@ MATS define a SOP'S ***material***, and can only be used in conjunction with a r
 ### COMPs
 ![Alt text](<1.5_Images/Screenshot 2023-07-19 193017.png>)
 
-Comps are where stuff gets crazy. COMPs stand for 'components' and they are great because they allow you to make full use of **layering** your Touchdesigner file. **Comps allow you to place parts of your node network ***within*** other node** Typically this is done with the 'container' or 'base' comp, and by zooming as far as you can on a comp. this lets large, complicated part of your node network, distilled to a single operation, kind of like wrapping your network in a function. Not all COMPS come in handy at all times, in all truth this is one of the more obscure family of operators for me, but they are a big part of modularity and sharing in Touchdesigner. In short, you can make comment blocks in your network editor, simple GUI elements for your scene, lights and geometry compositing, and much more.
+Comps are where stuff gets crazy. COMPs stand for 'components' and they are great because they allow you to make full use of **layering** your Touchdesigner file. **Comps allow you to place parts of your node network ***within*** other nodes** Typically this is done with the 'container' or 'base' comp, and by zooming as far as you can on a comp. this lets large, complicated parts of your node network be consolidated into a single operator, kind of like wrapping your network in a function. Not all COMPS come in handy at all times, in all truth this is one of the more obscure family of operators for me, but they are a big part of modularity and sharing in Touchdesigner. In short, you can make comment blocks in your network editor, simple GUI elements for your scene, lights and geometry compositing, and much more.
 
 While we are still on the topic of 'layers', this is a good time to mention that **everything you have seen in your network editor so far has been inside of a Container COMP**, go ahead, and try zooming out as far as you can.  
 
@@ -78,38 +78,6 @@ to
  
  ![Alt text](<1.5_Images/Screenshot 2023-07-19 194914.png>)
  
- Meaning you have left the project1 node. This **path** will change based on what layer you are currently editing in; and can make referencing nodes on different layers much easier.
-
- With the Create Dialog op open, start typing **null**, and click the null button. Now that it's in your scene, you can connect it to the default `movie file in` top from before. 
-![Alt text](<1.5_Images/Screenshot 2023-07-16 220930.png>)
-
-#Special topics 
-
- ##Ettiquite and Organization  
+ Meaning you have left the project1 node. This **path** will change based on what layer you are currently editing in and can make referencing nodes on different layers much easier.
  
- Once you start building larger Touchdesigner files, you may notice it becoming hard to go back to very specific portions of your logic. Large and sprawling node networks can be hard to distinguish with little visual difference so here's some tricks to make your files more ***legible, organized, and efficient***  
- ### Wires and Hover  
-  
- ### Annotate and color
- ![Screenshot 2023-07-25 220128](https://github.com/elugo1/Touchdesigner-Resources/assets/82634063/71c22454-6e6d-438b-9ccb-2cda021c2441)
- Annotations are one of the newly added, and most helpful features in Touchdesigner as it allows you to create **comments as you go**. Annotations sit behind everything in your network and  allow you to **group together operators with similar functions** You can write a paragraph about how a particular set of operators works, just as you would with comments in code. When you move an annotation block, it will move all of the nodes that are sitting on top of it.  
-
-  The Annotate tool is great, but is even better with the use of **The node color tool* 
- 
- Let's take a quick peek inside of a popular pallete operator: **Particles GPU** and see which of the two looks more easy to follow. 
- ![Screenshot 2023-07-25 222442](https://github.com/elugo1/Touchdesigner-Resources/assets/82634063/b860af99-908f-4bd3-bf33-190b55ffd732)
-
- ![Screenshot 2023-07-25 221403](https://github.com/elugo1/Touchdesigner-Resources/assets/82634063/f27ec40d-d16c-4d60-889d-03a51338297a) 
-
- Particles GPU natururally comes with no colors added to the annotations, 
- #### We can add  additional color to nodes by tapping `C` to bring up the node color box in the bottom left > `LMB` on a node > `LMB` desired color on the color picker
-![Screenshot 2023-07-25 223717](https://github.com/elugo1/Touchdesigner-Resources/assets/82634063/530b1f65-f0a5-478a-bd87-cc1ed5c05481) 
-Color Picker  
- ![Screenshot 2023-07-25 224222](https://github.com/elugo1/Touchdesigner-Resources/assets/82634063/dd2956b5-727a-425f-80c0-28456e3dc4fb)
-As shown the image above, color changes to **Annotations** make the whole node change color. On the Right we can see color changes made to all of our operator types   
-make the border change to the corresponding color. 
- 
- The Mod
-
- ### Null Operator 
  
