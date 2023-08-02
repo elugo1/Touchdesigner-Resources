@@ -24,6 +24,8 @@
 - [threedashes](https://www.youtube.com/@threedashes___)
 
 - [Paketa12](https://www.youtube.com/@paketa12)  
+
+- [Simon Alexander-Adams](https://www.simonaa.media/tutorials-articles)
     - 
 - [Wai Ching Chung](https://www.youtube.com/@waichingchung5144/videos)
     - only has a few videos on touchdesigner but has great  videos on motion tracking and pose detection 
