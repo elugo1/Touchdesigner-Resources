@@ -9,7 +9,7 @@
     - Truly one of my favorite channels. On one end they have approachable video tutorials of most basic operations, and on the other hand have very in-depth, long-form videos that take you through an advanced project froms scratch
 
 ---
-- 
+
 
 - [Matthew Ragan](https://matthewragan.com/teaching-resources/touchdesigner/)
 
@@ -26,7 +26,7 @@
 - [Paketa12](https://www.youtube.com/@paketa12)  
 
 - [Simon Alexander-Adams](https://www.simonaa.media/tutorials-articles)
-    - 
+ 
 - [Wai Ching Chung](https://www.youtube.com/@waichingchung5144/videos)
     - only has a few videos on touchdesigner but has great  videos on motion tracking and pose detection 
 
@@ -54,7 +54,6 @@
 >Note 
 > There may be some overlap in the operators available on these platforms
 - [Chopchopchop](https://chopchopchop.org/)
-    - 
 - [RayTK](https://github.com/t3kt/raytk)
     - a collection of touchdesigner nodes that are the building blocks of raymarching shaders. 
 - [TDNeuron]()
