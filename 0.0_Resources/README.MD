@@ -32,7 +32,7 @@
 
 - [Torin Blankensmith](https://www.youtube.com/@blankensmithing/videos) 
     - Connecting Touchdesigner to web servers and bodytracking
-## Special topics by video
+## Topics by video
 ### Python in Touchdesigner
 
 ### The Many Ways to do Particles
