@@ -102,12 +102,10 @@ to
  ![Screenshot 2023-07-25 221403](https://github.com/elugo1/Touchdesigner-Resources/assets/82634063/f27ec40d-d16c-4d60-889d-03a51338297a) 
 
  Particles GPU natururally comes with no colors added to the annotations, 
- #### We can add  additional color to nodes by tapping `C` to bring up the node color box in the bottom left > `LMB` on a node > `LMB` desired color on the color picker
+ #### We can add  additional color to nodes by tapping `C` to bring up the node color box in the bottom left > `LMB` on a node > `LMB` desired color on the `color picker`
 ![Screenshot 2023-07-25 223717](https://github.com/elugo1/Touchdesigner-Resources/assets/82634063/530b1f65-f0a5-478a-bd87-cc1ed5c05481) 
-Color Picker  
  ![Screenshot 2023-07-25 224222](https://github.com/elugo1/Touchdesigner-Resources/assets/82634063/dd2956b5-727a-425f-80c0-28456e3dc4fb)
-As shown the image above, color changes to **Annotations** make the whole node change color. On the Right we can see color changes made to all of our operator types   
-make the border change to the corresponding color. 
+As shown the image above, color changes to **Annotations** make the whole node change color. On the Right we can see color changes made to all of our operator types make the border change to the corresponding color. 
  
  The Mod
 
