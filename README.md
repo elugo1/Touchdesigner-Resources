@@ -4,7 +4,8 @@ Touchdesigner how I wish I had learned it :)
 > **Note**
 > Feel free to use Lesson 0 as a working list of resources to return to at any level of Touchdesigner. Many creators have great tutorials in specific subjects 
 
-I have split this up into a series of tutorials in how to work in each workflow. Because the lessons are structured by datatype, and how to produce desirable outcomes from said operator families, there will be techniques that involve **combinations** of operator families.
+I have split this up into a series of tutorials on how to work in each family type. Because the lessons are structured by datatype, and how to produce desirable outcomes from said operator families, there will be techniques that involve **combinations** of operator families. 
+
 
 | Lesson      | Description |
 | ----------- | ----------- |
@@ -16,7 +17,7 @@ I have split this up into a series of tutorials in how to work in each workflow.
 | 4.0 SOP Workflows| How we create,edit, and visualize 3D information in Touchdesigner |
 | 5.0 DAT Workflows| Text editing, manipulating tables and graphs, complex messaging systems and python callbacks |
 
-
+I am the type of learner where I have to see something a million times, explained a million ways to understand something, so if you feel like in a video that I make is lacking in explanation, I will link to the videos/articles/forums on that topic that I learned from. 
 
 
 
