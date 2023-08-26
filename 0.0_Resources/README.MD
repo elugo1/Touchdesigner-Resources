@@ -33,8 +33,10 @@
 
 - [threedashes](https://www.youtube.com/@threedashes___)
 
-- [Paketa12](https://www.youtube.com/@paketa12)  
+- [Function Store](https://www.youtube.com/@FunctionStore/videos)
 
+- [Paketa12](https://www.youtube.com/@paketa12)  
+   - Advanced but unique approach to making complex systems with forces, ad UV Math
 - [Simon Alexander-Adams](https://www.simonaa.media/tutorials-articles)
  
 - [Wai Ching Chung](https://www.youtube.com/@waichingchung5144/videos)
@@ -62,10 +64,21 @@
 ## Plugins and custom operators
 >Note 
 > There may be some overlap in the operators available on these platforms
+
 - [Chopchopchop](https://chopchopchop.org/)
+
+- [Colour lover palatte picker](https://derivative.ca/community-post/asset/colour-lover-palette-picker/62697)
+
+- [Function Store Tools by Daniel Molnar](https://github.com/function-store/FunctionStore_tools)
+
 - [RayTK](https://github.com/t3kt/raytk)
     - a collection of touchdesigner nodes that are the building blocks of raymarching shaders. 
+
 - [TDNeuron]()
     - A system that teaches the basics of creating a neural network using touchdesigner nodes and engine.
+
 - [Thirteen Tap Bloom]()
     - lightweight and scaleable bloom effect for putting finishing touches on a render pipeline or any other visuals, low cost high reward.
+
+- [ChainGPU](https://derivative.ca/community-post/asset/chaingpu-physics-simulation-tool/68172)
+   - Brand new physics simulation tool!
