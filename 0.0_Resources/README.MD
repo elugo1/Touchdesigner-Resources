@@ -1,3 +1,13 @@
+## Official TouchDesigner Course  
+   
+- [TD Fundamental Course](https://learn.derivative.ca/courses/100-fundamentals/)
+    - Basic workflows and overviews of the main operator types. 
+    - MUCH MORE OFFICIAL THAN ME
+
+## AllTD
+- [ALLTD](https://alltd.org/) 
+    - One stop shop for Touchdesigner videos and creators. Great educational resource and easy to search especially for learning in different languages, and just seeing the range of projects people are teaching 
+
 # Videos 
 ### Beginner to intermediate channels 
 
@@ -32,8 +42,7 @@
 
 - [Torin Blankensmith](https://www.youtube.com/@blankensmithing/videos) 
     - Connecting Touchdesigner to web servers and bodytracking
-## Topics by video
-### Python in Touchdesigner
+## Topics by video that I probably won't go in depth about 
 
 ### The Many Ways to do Particles
 
@@ -59,4 +68,4 @@
 - [TDNeuron]()
     - A system that teaches the basics of creating a neural network using touchdesigner nodes and engine.
 - [Thirteen Tap Bloom]()
-    - lightweight and scaleable bloom effect for putting finishing touches on a render pipeline or any other sort of visuals 
+    - lightweight and scaleable bloom effect for putting finishing touches on a render pipeline or any other visuals, low cost high reward.
