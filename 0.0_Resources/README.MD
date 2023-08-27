@@ -4,6 +4,9 @@
     - Basic workflows and overviews of the main operator types. 
     - MUCH MORE OFFICIAL THAN ME
 
+## Operator Snippets 
+Under the `HELP` tab in the touchdesigner GUI and selecting `operator snippets` we get to see a usecase for every single one of the basic data operators. This tool is really great for learning more about operators with many different parameters, and figuring out what changes actually mean in the context of a goal
+
 ## AllTD
 - [ALLTD](https://alltd.org/) 
     - One stop shop for Touchdesigner videos and creators. Great educational resource and easy to search especially for learning in different languages, and just seeing the range of projects people are teaching 
