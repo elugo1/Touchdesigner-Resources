@@ -2,7 +2,7 @@
 Touchdesigner how I wish I had learned it :)
 
 > **Note**
-> Feel free to use Lesson 0 as a working list of resources to return to at any level of Touchdesigner. Many creators have great tutorials in specific subjects 
+> DISCLAIMER: This repo is most useful as a collection of tutorials and collections from **around the internet**. I do not own all of the material in this repo, and I will always try to cite where I picked a technique or video from. 
 
 I have split this up into a series of tutorials on how to work in each family type. Because the lessons are structured by datatype, and how to produce desirable outcomes from said operator families, there will be techniques that involve **combinations** of operator families. 
 
@@ -15,9 +15,9 @@ I have split this up into a series of tutorials on how to work in each family ty
 | 2.0 TOP Workflows| How images are created,imported manipulated, and exported and a few key tips and tricks to making visual art in Touchdesigner|
 | 3.0 CHOP Workflows| How we deal with audio, signals, messaging protocols and data deconstruction in Touchdesigner |
 | 4.0 SOP Workflows| How we create,edit, and visualize 3D information in Touchdesigner |
-| 5.0 DAT Workflows| Text editing, manipulating tables and graphs, complex messaging systems and python callbacks |
+| 5.0 DAT Workflows| Text editing, manipulating tables and graphs, internet messaging protocols and python callbacks |
 
-I am the type of learner where I have to see something a million times, explained a million ways to understand something, so if you feel like in a video that I make is lacking in explanation, I will link to the videos/articles/forums on that topic that I learned from. 
+I am the type of learner where I have to see something a million times, explained a million ways to understand something, so if you feel like a video that I make is lacking in explanation, I will link to the videos/articles/forums on said topic. 
 
 
 
