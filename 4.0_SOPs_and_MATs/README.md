@@ -15,5 +15,5 @@
   ### SOP deformers
   ### Channel deformation
   ### Height maps 
-## 5. Metaballs ands Iso- Geometry
+## 5. Metaballs and Iso-Geometry
 ## 6. Facetrack chop 
