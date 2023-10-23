@@ -17,7 +17,8 @@ In a few words, TOPs are responsible for
  - importing/exporting all video and photos
  - Connecting to video recording devices 
  - rendering 3D scenes 
- - filters/direct RGBA control for all textures in your scene   
+ - filters/direct RGBA control for all textures in your scene 
+ - Some concepts similar to Photoshop   
 
 ### CHOPS
 

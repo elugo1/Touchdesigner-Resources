@@ -2,6 +2,7 @@
 
 ## 2. Render networks 
   ### Geometry 
+  - Create and change 3D geometry in your scene with SOPS. Here is a collection of a few 
   ### Camera
   ### Light(optional)
   ### Materials 
@@ -9,10 +10,11 @@
   
 ## 3. Instancing 
   ### Instancing from Textures
-  ### Instancing from channels 
+  ### Instancing from Channels 
+  ### Instancing from Geometry 
   
 ## 4. Deforming Geometry
-  ### SOP deformers
+  ### SOP Deformers
   ### Channel deformation
   ### Height maps 
 ## 5. Metaballs and Iso-Geometry
