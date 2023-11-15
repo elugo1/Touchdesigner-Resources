@@ -2,7 +2,7 @@
 
 In-class Demo 
 
-### Documentation instructions are in the `0.7_Documentation` section of this repository
+### Documentation instructions are in the `7.0_Documentation` section of this repository
 
 
 ## Submission guidelines
@@ -32,10 +32,13 @@ The goal of this assignment is to create an audiovisual composition that reacts 
 An input audio stream will be analyzed and turned into a one-dimensional output that we will use to control the parameters of a texture (TOP) or a 3D asset (SOP).
 
 ## Option 1: Audio Visual Environment 
-Resources: 
+- For this you will be making an audioreactive 
 
 ## Option 2: Audio Visual Body
-The resources will be the same as option 1, but with the addition of more body-tracking techniques.
+The resources will be the same as option 1, but with the addition of more body-tracking techniques. 
 ### Motion Capture Plugins
-- ['Torin Blankensmith- Face, Hand, Pose Tracking & More in TouchDesigner with MediaPipe GPU Plugin'](https://www.youtube.com/watch?v=Cx4Ellaj6kk): Hot off the press, and error-prone, this tool allows for access to all of the basic MediaPipe body tracking models.
+- [Torin Blankensmith- Face, Hand, Pose Tracking & More in TouchDesigner with MediaPipe GPU Plugin](https://www.youtube.com/watch?v=Cx4Ellaj6kk) 
+    - Hot off the press, and error-prone, this tool allows for access to all of the basic MediaPipe body tracking models. 
+    - In a sentence, the way I expect you to use this tool is to have body points become the anchors for the movement of 2D or 3D audioreactive elements. Highly suggested for folks in the class with strong GPUs
+- [Tracking motion without a Kinect - Quick Tips TouchDesigner EN](https://www.youtube.com/watch?v=HIn2IBBhxXk)
 - 
